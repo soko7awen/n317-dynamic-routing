@@ -34,7 +34,7 @@ export default function Characters() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href="/">
+            <Link href="/">
               <Image
                 aria-hidden
                 src="/home.svg"
@@ -43,10 +43,10 @@ export default function Characters() {
                 height={100}
               />
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/characters">
+            <Link href="/characters">
               <Image
                 aria-hidden
                 src="/person.svg"
@@ -55,7 +55,7 @@ export default function Characters() {
                 height={100}
               />
               Characters
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
