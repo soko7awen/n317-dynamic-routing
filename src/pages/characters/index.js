@@ -60,16 +60,26 @@ export default function Characters() {
         </ul>
       </nav>
   <main className={styles.main}>
-    <form onSubmit={handleSearch}>
+    <form onSubmit={handleSearch} className={styles.searchForm}>
       <label htmlFor="characterSearchBar">Search: </label>
-      <input
-      type="text"
-      id="characterSearchBar"
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="Anime Character"
-      />
-      <button type="submit">Search</button>
+      <div className={styles.searchBar}>
+        <input
+        type="text"
+        id="characterSearchBar"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search characters..."
+        className={styles.searchInput}
+        />
+        <button type="submit" className={styles.searchButton}>
+              <Image
+                aria-hidden
+                src="/search.svg"
+                width={20}
+                height={20}
+              />
+        </button>
+      </div>
     </form>
 
     {loading && <p>Loading...</p>}
