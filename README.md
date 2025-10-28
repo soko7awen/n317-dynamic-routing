@@ -1,5 +1,13 @@
-# N317 - Homework 03
+# N317 - Homework01
+This is a [Next.js](https://nextjs.org) project, created by Haven, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## "Anime Character" app to dynamic routing and async/await with an API.
+## Getting Started
 
-[Vercel Link](#)
+First, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+

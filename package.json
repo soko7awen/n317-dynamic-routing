@@ -1,5 +1,5 @@
 {
-  "name": "n317-dynamic-routing",
+  "name": "n317-homework01",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,8 +14,6 @@
     "next": "15.5.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
     "@eslint/eslintrc": "^3"
